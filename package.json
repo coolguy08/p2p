@@ -1,0 +1,29 @@
+{
+  "name": "p2p_backend",
+  "version": "1.0.0",
+  "description": "Quickly share files with multiple users",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "sucrase-node index"
+  },
+  "author": "Lavdeep Singh",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "project-name-generator": "^2.1.7",
+    "sucrase": "^3.15.0",
+    "ws": "^7.4.6"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
